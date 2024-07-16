@@ -95,7 +95,7 @@ body{
     margin-right: 66px;
 }
 
-@media screen and (min-width:576px) and (max-width:992px) {
+@media screen and (max-width:576px) {
     .nav-bar, .menu, .banner, .brands{
         flex-direction: column;
         /* justify-content: center;
@@ -114,12 +114,21 @@ body{
     .menu{
         margin-left: auto;
         margin-right: auto;
+        border: 1px solid green;
+        margin-top: 30px;
+       
+      
+    }
+    .list-item{
+        margin-left: 20px;
+        margin-bottom: 5px;
     }
    
 
     .banner-left-side{
-        width: 250px;
-        height: 150px;
+        border: 1px solid red;
+        width: 270px;
+        height: 250px;
         margin-right: auto;
         margin-left: auto;
         margin-top: 25px;
@@ -135,19 +144,17 @@ body{
 
     .banner-sub{
         color: rgb(58, 58, 58);
-        font-size: 0.5rem;
+        font-size: 1rem;
         font-weight: 400;
         margin-top: 10px;
         margin-bottom: 10px;
     }
-    .banner-btn{
-        
-    }
+ 
   
     .banner-right-side{
         margin-left: auto;
         margin-right: auto;
-        margin-top: 150px;
+        margin-top: 90px;
     }
         
     .banner-right-side img{
