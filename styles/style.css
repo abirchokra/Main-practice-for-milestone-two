@@ -69,6 +69,8 @@ body{
     margin-top: 26px;
     text-align: center;
     position: relative;
+    border: none;
+    cursor: pointer;
 }
 
 .banner-right-side{
@@ -206,6 +208,7 @@ body{
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
     background: rgb(255, 255, 255);
     padding: 20px;
+
 }
 #card:hover{
     background-color: #2a4b5e;
@@ -228,6 +231,15 @@ body{
     font-size: 1rem;
     font-weight: 700;
 }
+/* .see-more{
+    color: rgba(224, 44, 109, 0.87);
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 970px;
+    margin-top: 50px;
+    cursor: pointer;
+   
+} */
 @media screen and (max-width:576px) {
 
     .card-section{
@@ -296,15 +308,101 @@ body{
     
 }
 
-@media screen and (min-width:576px) and (max-width:992px) {
+.feature{
+    max-width: 1110px;
+    height: 270px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.feature-img{
+    margin-right: 95px;
+}
+.feature-text{
+    width: 610px;
+    height: 224px;
+    
+    
+}
+.feature-text h3{
+    color: rgb(10, 8, 38);
+    font-size: 2.1rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.feature-text p{
+    color: rgb(108, 108, 108);
+    font-size: 1rem;
+    font-weight: 700;
+}
 
-    .card-section{
-        margin-top: 47px;
-      
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        gap: 20px;
-       
+@media screen and (max-width:576px)  {
+    .feature{
+        flex-direction: column;
+        width: 100%;
     
     }
+
+   
+    .feature-text{
+        width: 350px;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .feature-img{
+        width: 200px;
+        
+    }
+
+    .feature-text h3{
+        color: rgb(10, 8, 38);
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 16px;
+    }
+    .feature-text p{
+        color: rgb(108, 108, 108);
+        font-size: 1rem;
+        font-weight: 700;
+    }
+   
+}
+
+.last-part{
+    height: 360px;
+    background: rgb(10, 8, 38);
+    margin-top: 100px;
+
+   
+}
+.last-part-items{
+    width: 300px;
+    height: 189px;
+    padding: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+   
+   
+}
+.last-part-items h4{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+ 
+
+
+}
+.last-part-items p{
+    color: rgb(217, 219, 225);
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.last-part-items img{
+    margin-right: 18px;
+    
 }
